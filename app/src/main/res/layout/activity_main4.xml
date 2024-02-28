@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="392dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="70dp" >
+
+        <ImageView
+            android:layout_width="60dp"
+            app:srcCompat="@drawable/loupe"
+            android:layout_marginTop="10dp"
+            android:layout_height="40dp">
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="search"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="40dp"
+            app:srcCompat="@drawable/voice"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="50dp">
+
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="clothes collection"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/box1_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="electroics"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        app:srcCompat="@drawable/box4_image" />
+</LinearLayout>

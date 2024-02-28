@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/skyblue"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:textSize="70dp"
+        android:textStyle="bold"></TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        app:cardCornerRadius="20dp"
+
+        android:layout_height="80dp">
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp"
+
+        android:layout_height="80dp">
+
+
+
+        <EditText
+            android:id="@+id/editTextNumberPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+
+            android:ems="10"
+            android:inputType="numberPassword" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="80dp" >
+
+        <TextView
+            android:id="@+id/ed4"
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SIGN IN" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
